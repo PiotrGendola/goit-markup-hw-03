@@ -19,33 +19,43 @@
         />
     </head>
     <body>
-        <header>
-            <a class="logo studio-black" href="/index.html">
-                <span class="web-style">Web</span>Studio</a
-            >
-            <nav>
-                <ul>
-                    <li><a class="nav-font" href="./index.html">Agencja</a></li>
-                    <li>
-                        <a class="nav-font" href="./portfolio.html"
-                            >Portfolio</a
-                        >
-                    </li>
-                    <li><a class="nav-font" href="#address">Kontakt</a></li>
-                </ul>
-            </nav>
-            <div>
-                <a class="contact-link-top" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                >
-                <a class="contact-link-top" href="tel:+48111111111"
-                    >+48 111 111 111</a
-                >
+        <header class="header-line">
+            <div class="container page-header">
+                <div class="logo-nav">
+                    <a class="logo studio-black" href="/index.html">
+                        <span class="web-style">Web</span>Studio</a
+                    >
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                                <a class="nav-font" href="./index.html"
+                                    >Agencja</a
+                                >
+                            </li>
+                            <li>
+                                <a class="nav-font" href="./portfolio.html"
+                                    >Portfolio</a
+                                >
+                            </li>
+                            <li>
+                                <a class="nav-font" href="#address">Kontakt</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-adress">
+                    <a class="contact-link-top" href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
+                    <a class="contact-link-top" href="tel:+48111111111"
+                        >+48 111 111 111</a
+                    >
+                </div>
             </div>
         </header>
         <main>
-            <section>
-                <ul>
+            <section class="container flex">
+                <ul class="button-gap">
                     <li>
                         <button class="portfolio-button" type="button">
                             Wszystkie
@@ -73,16 +83,17 @@
                     </li>
                 </ul>
 
-                <ul>
+                <ul class="portfolio-photos">
                     <li>
-                        <figure>
+                        <figure class="figure">
                             <img
+                                class="card-image"
                                 src="images/laptop.jpg"
                                 alt="technocrack website"
                                 width="370"
                                 height="294"
                             />
-                            <figcaption>
+                            <figcaption class="figcaption">
                                 <h4 class="portfolio-team-names">
                                     Technocrack
                                 </h4>
@@ -93,14 +104,15 @@
                         </figure>
                     </li>
                     <li>
-                        <figure>
+                        <figure class="figure">
                             <img
+                                class="card-image"
                                 src="images/basketball.jpg"
                                 alt="basketball players"
                                 width="370"
                                 height="294"
                             />
-                            <figcaption>
+                            <figcaption class="figcaption">
                                 <h4 class="portfolio-team-names">
                                     Grafika New Orlean vs Golden Star
                                 </h4>
@@ -111,14 +123,15 @@
                         </figure>
                     </li>
                     <li>
-                        <figure>
+                        <figure class="figure">
                             <img
-                                src="images/laptop.jpg"
+                                class="card-image"
+                                src="images/restaurant.jpg"
                                 alt="the seafood restaurant logo"
                                 width="370"
                                 height="294"
                             />
-                            <figcaption>
+                            <figcaption class="figcaption">
                                 <h4 class="portfolio-team-names">
                                     Restauracja Seafood
                                 </h4>
@@ -129,14 +142,15 @@
                         </figure>
                     </li>
                     <li>
-                        <figure>
+                        <figure class="figure">
                             <img
+                                class="card-image"
                                 src="images/headphones.jpg"
                                 alt="headphones"
                                 width="370"
                                 height="294"
                             />
-                            <figcaption>
+                            <figcaption class="figcaption">
                                 <h4 class="portfolio-team-names">
                                     Projekt Prime
                                 </h4>
@@ -147,14 +161,15 @@
                         </figure>
                     </li>
                     <li>
-                        <figure>
+                        <figure class="figure">
                             <img
+                                class="card-image"
                                 src="images/boxes.jpg"
                                 alt="two boxes"
                                 width="370"
                                 height="294"
                             />
-                            <figcaption>
+                            <figcaption class="figcaption">
                                 <h4 class="portfolio-team-names">
                                     Projekt Boxes
                                 </h4>
@@ -165,14 +180,15 @@
                         </figure>
                     </li>
                     <li>
-                        <figure>
+                        <figure class="figure">
                             <img
+                                class="card-image"
                                 src="images/monitor.jpg"
                                 alt="computer monitor"
                                 width="370"
                                 height="294"
                             />
-                            <figcaption>
+                            <figcaption class="figcaption">
                                 <h4 class="portfolio-team-names">
                                     Inspiration has no Borders
                                 </h4>
@@ -183,14 +199,15 @@
                         </figure>
                     </li>
                     <li>
-                        <figure>
+                        <figure class="figure">
                             <img
+                                class="card-image"
                                 src="images/book.jpg"
                                 alt="open book"
                                 width="370"
                                 height="294"
                             />
-                            <figcaption>
+                            <figcaption class="figcaption">
                                 <h4 class="portfolio-team-names">
                                     Magazyn Limited Edition
                                 </h4>
@@ -201,14 +218,15 @@
                         </figure>
                     </li>
                     <li>
-                        <figure>
+                        <figure class="figure">
                             <img
-                                src="images/laptop.jpg"
+                                class="card-image"
+                                src="images/label.jpg"
                                 alt="white label"
                                 width="370"
                                 height="294"
                             />
-                            <figcaption>
+                            <figcaption class="figcaption">
                                 <h4 class="portfolio-team-names">
                                     Projekt LAB
                                 </h4>
@@ -219,14 +237,15 @@
                         </figure>
                     </li>
                     <li>
-                        <figure>
+                        <figure class="figure">
                             <img
+                                class="card-image"
                                 src="images/laptop-hands.jpg"
                                 alt="hands writing on laptop"
                                 width="370"
                                 height="294"
                             />
-                            <figcaption>
+                            <figcaption class="figcaption">
                                 <h4 class="portfolio-team-names">
                                     Growing Business
                                 </h4>
@@ -240,22 +259,26 @@
             </section>
         </main>
         <footer class="footer">
-            <a class="logo studio-white" href="/index.html">
-                <span class="web-style">Web</span>Studio</a
-            >
-            <address id="address">
-                <a
-                    class="street-contact-link-bottom"
-                    href="https://goo.gl/maps/ZqLkn6hwroW3PkPB6"
-                    >m. Warszawa, Aleje Jerozolimskie 21</a
+            <div class="container">
+                <a class="logo studio-white" href="/index.html">
+                    <span class="web-style">Web</span>Studio</a
                 >
-                <a class="contact-link-bottom" href="mailto:info@example.com"
-                    >info@example.com</a
-                >
-                <a class="contact-link-bottom" href="tel:+48111111111"
-                    >+48 111 111 111</a
-                >
-            </address>
+                <address class="footer-address" id="address">
+                    <a
+                        class="street-contact-link-bottom"
+                        href="https://goo.gl/maps/ZqLkn6hwroW3PkPB6"
+                        >m. Warszawa, Aleje Jerozolimskie 21</a
+                    >
+                    <a
+                        class="contact-link-bottom"
+                        href="mailto:info@example.com"
+                        >info@example.com</a
+                    >
+                    <a class="contact-link-bottom" href="tel:+48111111111"
+                        >+48 111 111 111</a
+                    >
+                </address>
+            </div>
         </footer>
     </body>
 </html>
