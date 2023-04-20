@@ -18,13 +18,20 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: 1200px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
 .flex {
     display: flex;
     flex-direction: column;
+}
+
+header {
+    padding-top: 22px;
+    padding-bottom: 22px;
 }
 
 ul {
@@ -42,7 +49,7 @@ ul {
 .lorem-gap {
     display: flex;
     gap: 30px;
-    padding: 94px 0px 0px;
+    /* padding: 94px 0px 0px; */
 
     margin: 0 auto;
 }
@@ -59,14 +66,12 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-    padding-bottom: 94px;
 }
 
 .page-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
 }
 
 .logo-nav {
@@ -104,7 +109,6 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 9px;
-    padding-bottom: 60px;
 }
 
 .logo {
@@ -133,7 +137,6 @@ ul {
 .studio-white {
     color: var(--bright-font-color);
     display: flex;
-    padding-top: 60px;
     padding-bottom: 20px;
 }
 
@@ -146,7 +149,6 @@ ul {
     display: flex;
     flex-wrap: nowrap;
     gap: 8px;
-    padding-top: 94px;
     padding-bottom: 34px;
 }
 
@@ -188,10 +190,15 @@ ul {
     display: block;
 }
 
-.h1-section {
+.section-h1 {
     background-color: var(--h1-background-color);
     padding-top: 200px;
     padding-bottom: 200px;
+}
+
+.section-what-we-do {
+    margin: 0 auto;
+    padding: 0px 0px 94px;
 }
 
 .h1-style {
@@ -324,6 +331,8 @@ ul {
 
 .footer {
     background-color: var(--footer-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .nav-font {
