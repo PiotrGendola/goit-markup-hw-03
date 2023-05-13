@@ -347,3 +347,11 @@ ul {
 .nav-font:hover {
     color: var(--web-style-color);
 }
+
+.svg {
+    width: 70px;
+    height: 70px;
+    /* visibility: visible; */
+    background-color: #757575;
+    color: #000000;
+}
